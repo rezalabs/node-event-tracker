@@ -1,0 +1,31 @@
+{
+  "name": "node-event-tracker",
+  "version": "3.0.0",
+  "description": "A robust, scalable event aggregation and throttling engine for Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:example": "node examples/basic-usage.js",
+    "start:redis-example": "node examples/redis-usage.js",
+    "start:advanced-example": "node examples/advanced-usage.js"
+  },
+  "keywords": [
+    "rate-limit",
+    "throttle",
+    "debounce",
+    "token-bucket",
+    "events",
+    "aggregate",
+    "redis",
+    "alerts",
+    "logs"
+  ],
+  "author": "RezaLabs",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "redis": "^4.6.7"
+  }
+}
